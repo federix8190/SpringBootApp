@@ -8,13 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import demo.audit.entity.Comentario;
-import demo.audit.entity.CommentRepository;
 import demo.audit.entity.Image;
-import demo.audit.entity.ImageRepository;
 import demo.audit.entity.Post;
-import demo.audit.entity.PostRepository;
 import demo.audit.entity.Usuario;
-import demo.audit.entity.UserRepository;
+import demo.audit.repository.CommentRepository;
+import demo.audit.repository.ImageRepository;
+import demo.audit.repository.PostRepository;
+import demo.audit.repository.UserRepository;
 
 @Service
 public class BlogService {
